@@ -1,0 +1,27 @@
+{
+  "name": "javascript-utilities",
+  "version": "1.0.0",
+  "description": "A JavaScript utilities library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BetaZhang/javascript-utilities.git"
+  },
+  "keywords": [
+    "javascript",
+    "utilities"
+  ],
+  "author": "BetaZhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BetaZhang/javascript-utilities/issues"
+  },
+  "homepage": "https://github.com/BetaZhang/javascript-utilities#readme",
+  "devDependencies": {
+    "prettier": "^3.5.1",
+    "typescript": "^5.7.3"
+  }
+}
