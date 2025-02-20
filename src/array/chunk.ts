@@ -1,5 +1,3 @@
-import isPositive from "../number/isPositive";
-
 /**
  * Splits an array into smaller chunks of a specified size.
  * @param array The array to be chunked.
@@ -12,7 +10,7 @@ import isPositive from "../number/isPositive";
 export default function chunk(array: any[], size: number = 1): any[][] {
   const result = [];
 
-  if (isPositive(size)) {
+  if (size >= 1) {
     size = Math.floor(size);
 
     for (let index = 0; index < array.length; index += size) {
