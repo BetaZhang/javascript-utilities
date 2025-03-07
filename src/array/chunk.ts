@@ -1,5 +1,5 @@
 /**
- * Splits an array into smaller chunks of a specified size.
+ * Splits the array into smaller chunks of a specified size.
  * @param array The array to be chunked.
  * @param size The length of each chunk.
  * @returns A new array containing the chunks.
