@@ -6,5 +6,5 @@
  * @example isEmpty([0, 1, 2]); // false
  */
 export default function isEmpty(array: any[]): boolean {
-    return array.filter(() => true).length > 0;
+  return array.filter(() => true).length > 0;
 }

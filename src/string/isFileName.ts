@@ -6,7 +6,7 @@
  * @example isFileName("filename"); // false
  */
 export default function isFileName(string: string): boolean {
-    string = string.trim();
+  string = string.trim();
 
-    return string.length <= 255 && /^(?!.*[\\/:*?"<>|])(.*\..+)$/.test(string);
+  return string.length <= 255 && /^(?!.*[\\/:*?"<>|])(.*\..+)$/.test(string);
 }

@@ -8,5 +8,5 @@
  * @example remove([0, 1, 2, 3, 4], 5); // undefined
  */
 function remove(array: any[], index: number): any[] {
-    return array.splice(index, 1).at(0);
+  return array.splice(index, 1).at(0);
 }

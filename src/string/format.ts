@@ -6,10 +6,13 @@
  * - If an object is provided, placeholders should be in the form `{key}`, where the keys correspond to the object's keys.
  * @returns The formatted string.
  */
-export default function format(string: string, formats: string[] | Record<string, string>): string {
-    Object.entries(formats).forEach(([key, value]) => {
-        string = string.replaceAll(`{${key}}`, value)
-    });
+export default function format(
+  string: string,
+  formats: string[] | Record<string, string>,
+): string {
+  Object.entries(formats).forEach(([key, value]) => {
+    string = string.replaceAll(`{${key}}`, value);
+  });
 
-    return string;
+  return string;
 }
