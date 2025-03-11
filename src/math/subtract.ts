@@ -5,5 +5,5 @@
  * @example subtract(0, 1, 2); // -3
  */
 export default function subtract(...numbers: number[]): number {
-  return numbers.reduce((previousValue, currentValue) => previousValue - currentValue);
+    return numbers.length > 0 ? numbers.reduce((previousValue, currentValue) => previousValue - currentValue) : 0;
 }
