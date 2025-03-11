@@ -5,5 +5,5 @@
  * @example sum(0, 1, 2); // 3
  */
 export default function sum(...numbers: number[]): number {
-  return numbers.reduce((previousValue, currentValue) => previousValue + currentValue);
+  return numbers.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
 }
