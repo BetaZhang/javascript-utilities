@@ -1,2 +1,2 @@
-# javascript-utilities
+# javascript-utilitie
 A JavaScript utilities library.
